@@ -3,6 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #f2f2f2;
+  text-decoration:none;
+
+  
 }
 
 .movie-card {
@@ -14,11 +17,17 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  color:black;
+}
+
+.movie-link {
+  text-decoration:none;
 }
 
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
+  
 }
 
 .saved-list {
@@ -38,6 +47,7 @@ body {
 
 .saved-list h3 {
   margin-right: 10px;
+  
 }
 
 .saved-movie {
